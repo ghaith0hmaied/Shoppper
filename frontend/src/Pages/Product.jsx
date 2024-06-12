@@ -5,7 +5,7 @@ import { useParams } from 'react-router-dom';
 
 const Product = () => {
     const { all_product } = useContext(ShopContext);
-    const { productId } = useParams();
+    const  productId  = useParams();
 
     // Check if all_product is defined before using it with the find method
     const product = all_product && all_product.find((e) => e.id === Number(productId));
