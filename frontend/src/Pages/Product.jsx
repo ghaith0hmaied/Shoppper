@@ -1,19 +1,18 @@
 import React, { useContext } from 'react';
 import { ShopContext } from '../Context/ShopContext';
-import Breadcrum from '../Components/Breadcrum/Breadcrum';
 import { useParams } from 'react-router-dom';
-
+import Breadcrum from '../Components/Breadcrum/Breadcrum';
+import ProductDisplay from '../Components/ProductDisplay/ProductDisplay';
+import DiscriptionBox from '../Components/DescriptionBox/DiscriptionBox';
 const Product = () => {
-    const { all_product } = useContext(ShopContext);
-    const  productId  = useParams();
-
-    // Check if all_product is defined before using it with the find method
-    const product = all_product && all_product.find((e) => e.id === Number(productId));
-
+    const {all_product} = useContext(ShopContext);
+    const {productId} = useParams();
+    const product = all_product.find((e) => e.id === Number(productId));
     return (
         <div>
-            {/* Pass product only if it's defined */}
             <Breadcrum product={product} />
+            <ProductDisplay product={product} />
+            <DiscriptionBox/>
         </div>
     );
 };
