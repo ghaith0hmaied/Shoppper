@@ -10,6 +10,7 @@ const DiscriptionBox = () => {
       </div>
       <div className="decripboxdescrip">
         <p>Adulescentem adulescentem pernicies raris vehementer perciti cladibus indignitate hac quibus obiecti feris quidam perduelles saepe ex pacari raris miscere saepe Iconium Namque excursibus peius saepeque in quidam hac Isauri ut morem ex indignitate haec saepe capiti amphitheatrali quidam gravia audaciam gravia gravia et quod quidam Isauri ad motibus est Namque.</p>
+        <p>In funditur Armeniorum funditur Gnaeus regnis funditur Gnaeus Tigrane in Romanae Orontes provincias praetermeans quas Pompeius Romanae ambiens</p>
       </div>
     </div>
   )
