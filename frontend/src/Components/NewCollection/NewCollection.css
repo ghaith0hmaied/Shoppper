@@ -29,3 +29,12 @@
 .collections div{
     width: 300px;
 }
+@media(max-width:1280px){
+    .collections {
+        width: 130px;
+        margin-left: -800px;
+    }
+    .collections div{
+        width: 230px;
+    }
+}

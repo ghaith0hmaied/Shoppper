@@ -25,3 +25,17 @@
 .popular-item img{
     width: 300px;
 }
+@media(max-width:1280px){
+    .popular-item{
+         width: 500px;
+         margin-left: -700px;
+ 
+    }
+}
+@media(max-width:1020px){
+    .popular-item{
+        width: 500px;
+        gap: 120px;
+        margin-right: -450px;
+    }
+}
