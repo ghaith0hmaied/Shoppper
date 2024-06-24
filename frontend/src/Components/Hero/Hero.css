@@ -55,3 +55,53 @@
 .hero-right img{
     width: 500px;
 }
+
+@media(max-width:1280px){
+    .hero{
+        padding: 12px 50px;
+    }
+    .hero-left{
+        width: 40px;
+        margin-left: -130px;
+    }
+    .hero-left h2{
+        font-size: 22px;
+    }
+    .hero-left p{
+        font-size: 81px;
+    }
+    .hero-right{
+        width: 40px;
+    }
+    .hero-right img{
+        width: 430px;
+    }
+    .hero-latest-button{
+        width: 280px;
+    }
+}
+
+@media(max-width:800px){
+    .hero{
+        padding: 10px 0px;
+    }
+    .hero-left{
+        width: 20px;
+        margin-left: -130px;
+    }
+    .hero-left h2{
+        font-size: 18px;
+    }
+    .hero-left p{
+        font-size: 40px;
+    }
+    .hero-right{
+        width: 20px;
+    }
+    .hero-right img{
+        width: 300px;
+    }
+    .hero-latest-button{
+        width: 220px;
+    }
+}
